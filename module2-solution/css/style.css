@@ -32,7 +32,7 @@ p {
   float: left;
   border: 1px solid black;
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
   padding: 0;
 }
 #chicken-sec {
@@ -79,6 +79,7 @@ p {
     height: 300px;
     margin-left: 1.4%;
     margin-right: 1.4%;
+    margin-bottom: 2%;
   }
   #sushi-sec {
     width: 100%;
