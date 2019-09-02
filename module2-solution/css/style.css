@@ -14,7 +14,10 @@ p {
   height: 100vh;
 }
 .main-section {
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 .content-header {
   text-align: center;
@@ -24,11 +27,13 @@ p {
 
 .sec {
   position: relative;
-  width: 32%;
+  width: 100%;
   height: 280px;
   float: left;
   border: 1px solid black;
-  margin: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 0;
 }
 #chicken-sec {
   background-color: #badfdb;
@@ -65,24 +70,35 @@ p {
   padding: 55px 15px 15px 15px;
 }
 
-@media (min-width: 992px) {
-  .sec {
-    width: 31%;
-    height: 350px;
+@media all and (min-width: 768px) {
+  .main-section {
+    width: 95%;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
   .sec {
-    width: 48%;
+    width: 47.1%;
     height: 300px;
+    margin-left: 1.4%;
+    margin-right: 1.4%;
   }
   #sushi-sec {
     width: 100%;
+    height: 300px;
   }
 }
 
-@media (max-width: 767px) {
-  .sec {
+@media all and (min-width: 992px) {
+  .main-section {
     width: 100%;
+    margin: 0 auto;
+  }
+  .sec {
+    width: 31%;
+    height: 350px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  #sushi-sec {
+    width: 31%;
+    height: 350px;
   }
 }
